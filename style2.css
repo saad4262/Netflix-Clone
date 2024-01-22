@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Handjet:wght@500&family=Lato&family=Montserrat&family=Roboto:ital,wght@0,500;1,900&family=Ubuntu:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.back_img {
+
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 27%;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 9, 9, 0.8)), url(Netflix.logo.jpg);
+    background-position: center;
+    background-size: cover;
+    
+  
+  }
+  .back_img img {
+    position: absolute;
+    width: 170px;
+    top: 10%;
+    left: -22px;
+    transform: translate(40%, -50%);
+  
+  }
+  /* styles.css */
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.7);  
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    top: 75px;
+    right: 368px;
+    padding: 20px;
+    
+    
+}
+
+.content {
+     color: white;
+     
+    
+}
+
+ h1 {
+     position: absolute;
+     top: 88px;
+     left: 75px;
+     font-family: 'Ubuntu', sans-serif;
+  }
+  
+   input {
+    position: absolute;
+    top: 150px;
+    left: 76px;
+    /* text-align: center; */
+    background: rgba(84, 83, 83, 0.5);
+    flex: 1;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    outline: none;
+    padding: 14px 138px 19px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+  
+  }
+  
+   input:nth-child(3) {
+    position: absolute;
+    top: 230px;
+    left: 76px;
+    /* text-align: center; */
+    background: rgba(84, 83, 83, 0.5);
+    flex: 1;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    outline: none;
+    padding: 14px 138px 19px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+  
+  }
+
+  button {
+    position: absolute;
+    top: 350px;
+    left: 76px;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71%; /* Make the button span the full width */
+    height: 50px; /* Set a fixed height */
+    color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer; /* Add a cursor pointer for better interaction */
+}
+#checkbox1{
+    position: absolute;
+    top: 412px;
+    left: 71px;
+    /* transform: translateY(-50%); */
+    width: 18px;
+    height: 18px;
+    border:  white;
+}
+label{
+    position: absolute;
+    top: 412px;
+    left: 97px;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 14px;
+}
+.p1{
+    position: absolute;
+    top: 413px;
+    left: 361px;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 14px;
+}
+.p1:hover{
+    text-decoration: underline;
+}
+.p2{
+    position: absolute;
+    top: 453px;
+    left: 71px;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 16px;
+}
+.a1{
+    color: white;
+    text-decoration: none;
+}
+.a1:hover{
+    text-decoration: underline;
+}
+.p3{
+    position: absolute;
+    top: 495px;
+    left: 71px;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 16px;
+   
+}
+.a2{
+    text-decoration: none;
+    color: rgb(70, 70, 235);
+}
+.a2:hover{
+    text-decoration: underline;
+}
+
+
+
